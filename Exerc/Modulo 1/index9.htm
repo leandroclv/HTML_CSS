@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do eu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="/Exerc_Du/img/peq.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="/Exerc_Du/img/medio.png" type="image/png">
+        <img src="/Exerc_Du/img/grande.png" alt="imagens flexíveis">
+    </picture>
+
+    <h1>Reproduzir áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <!--<audio src="/Exerc_Du/img/CarDrivey.mp3" autoplay controls></audio>-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="/Exerc_Du/img/CarDrivey.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video src="/Exerc_Du/img/videoFolha.mp4" width="500" controls loop></video>
+    <!--<vídeo width="500" poster="imagens/limoes-capa.png" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <dource src="midia/meu-video.ogv" type="video/ogg">
+        <P>Seu navegador não tem compatibilidade com reprodutor de vídeos.</p>
+    </video>
+    -->
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6GoCN0ZrJ5c?si=ilCTt29wljiYcx1d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @font-face{
+            font-family:'Sinera';
+            src: url('/Exerc_Du/HMTL/fonts/Sinera.otf') format('opentype'),
+            url('/Exerc_Du/HMTL/fonts/Sinera.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*Tipos de format()
+            - opentype(otf)
+            - truetype(ttf)
+            - embadded-opentype
+            - truetype-aat(Apple Advanced Typography)
+            - svg*/
+        }
+        body{
+            font-family: 'Sinera';
+            /*Medidas absolutas
+            cm, mm, in (polegadas), px, pt, pc
+            recomenda utilizar o px (padrão nos navegadores é 16px)
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            recomenda utilizar o em (1em = 16px)
+            */
+            font-size: 1em;
+            /*font-weight: bold;
+            lighter(100) normal(400) bold(600) bolder(800)
+            font-style: italic;
+            text-decoration: underline;*/
+        }
+
+        h1{
+            font-family: "Kaushan Script";
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*shorthand
+            font-style -> font-weight -> font-size -> font-family
+            font: italic bolder 3em "arial", sans-serif;*/
+        }
+
+        h2{
+            font: bold 2em "Times New Roman";
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis molestiae laudantium cupiditate delectus mollitia cumque animi odit ullam. Iusto autem sint aspernatur numquam dignissimos delectus consequuntur iste eveniet nostrum eum?</p>
+    <h2>Subtírulo do Exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse nemo ex molestiae laudantium, amet cum, corporis cumque ab perspiciatis architecto rerum nam similique possimus non unde animi maxime facere. Voluptatem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quaerat maxime beatae voluptates suscipit, dolor nemo eligendi commodi consequuntur vitae, alias veniam architecto esse sed voluptas eum debitis iure laudantium.</p>
+</body>
+</html>
