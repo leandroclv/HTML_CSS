@@ -1,0 +1,8 @@
+body{
+    height: 89vh;
+    border: 1px dashed black;
+    background-image: url('/ex_022/imagens/wallpaper001.jpg');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
