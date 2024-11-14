@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url('/ex_022/imagens/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*
+    shorthand - background
+    color -> image -> position -> repeat -> [size - no wc3] -> attachment
+    background: black url('mlkml') center center no-repeat fixed;
+    background-size: cover;
+*/
+
+main{
+    background-color: white;
+    max-width: 400px;
+    padding: 10px 20px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    text-align:justify
+    
+}
