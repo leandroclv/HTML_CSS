@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    max-height: 100vh;
+    background-color: darkgray;
+}
+
 header{
     background-color: black;
     color: white;
@@ -7,9 +17,61 @@ header{
     padding: 10px;
 }
 
+header h1{
+    padding-top: 50px;
+    font-size: 60px;
+    font-variant: small-caps;
+}
+
+header p{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+p{
+    line-height: 30px;
+    padding: 30px;
+}
+
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+}
+
+.imagem p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.795);
+}
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
+}
+
+footer p{
+    padding: 5px;
 }
