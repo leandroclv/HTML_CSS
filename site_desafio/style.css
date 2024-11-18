@@ -2,9 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Space+Grotesk:wght@300..700&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Space+Grotesk:wght@300..700&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --font1: 'Verdana', Geneva, Tahoma, sans-serif; 
-    --font2: "Sriracha", cursive;
+    --font2: "Sriracha", serif;
     --font3: "Passion One", sans-serif;
 }
 
@@ -63,20 +66,38 @@ section{
     font-size: 5vh;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 .normal{
     background-color: white;
     color: black;
 }
 
 .imagem{
-    background-color: rgba(0, 0, 0, 0.685);
+    background-color: rgba(0, 0, 0, 0.411);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.233);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.795);
+    background-color: rgba(0, 0, 0, 0.342);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+#img01{
+    background-image: url("/site_desafio/imagens/background001.jpg");
+    background-position: right center;
+}
+
+#img02{
+    background-image: url("/site_desafio/imagens/background002.jpg");
+    background-position: center center;
 }
 
 footer{
