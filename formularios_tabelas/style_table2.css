@@ -4,6 +4,8 @@ body{
 
 table{
     width: 500px;
+    border-collapse: collapse;
+    position: relative;
 }
 
 caption{
@@ -21,6 +23,12 @@ td, th{
 thead, tfoot{
     background-color: black;
     color: white;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: black;
 }
 
 tbody > tr:nth-child(2n){ /* 2n faz pular 2 em dois e colocar em cinza/ pode ser 2n - 1 e even(pares) e odd(impares)*/
