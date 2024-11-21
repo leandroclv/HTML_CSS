@@ -6,14 +6,29 @@ table{
     width: 500px;
 }
 
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background: rgba(128, 128, 128, 0.486);
+}
+
 td, th{
     border: 1px solid black;
     padding: 10px;
 }
 
 thead, tfoot{
-    background-color: gray;
+    background-color: black;
     color: white;
+}
+
+tbody > tr:nth-child(2n){ /* 2n faz pular 2 em dois e colocar em cinza/ pode ser 2n - 1 e even(pares) e odd(impares)*/
+    background-color: lightgray;
+}
+
+tbody > tr:nth-child(odd){
+    font-weight: bold;
 }
 
 .numb{
