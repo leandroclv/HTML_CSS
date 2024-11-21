@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+
+thead{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.destaque{
+    background-color: chartreuse;
+}
+
+.cnome{
+    background-color: aqua;
+}
+
+.csexo, .cidade{
+    background-color: blueviolet;
+}
