@@ -41,23 +41,8 @@ img{
     margin: auto;
 }
 
-#phone{
-    display: block;
-
-}
-
-#tablet{
-    display: none;
-}
-
-#print{
-    display: none;
-}
-
-#pc{
-    display: none;
-}
-
-#tv{
-    display: none;
-}
+#phone{display: block;}
+#tablet{display: none;}
+#print{display: none;}
+#pc{display: none;}
+#tv{display: none;}
