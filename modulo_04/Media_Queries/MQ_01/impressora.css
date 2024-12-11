@@ -17,3 +17,10 @@ menu{
     display: none;
 }
 
+article::after{
+    content: 'Este artigo foi impresso através do site www.cursoemvideo.com.br';
+}
+
+article{
+    width: 100%;
+}
