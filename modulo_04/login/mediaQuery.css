@@ -7,6 +7,7 @@
     
     section#login{
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -25,9 +26,10 @@
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2cB2);
     }
-    
+
     section#login{
         width: 950px;
+        width: 600px;
     }
 
     section#login > div#imagem{
@@ -39,5 +41,14 @@
     section#login > div#formulario{
         float: right;
         width: 50%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
