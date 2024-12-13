@@ -26,6 +26,9 @@ header > h1{
     text-align: center;
     padding: 10px;
 }
+.material-icons{
+    width: 20px;
+}
 
 #burguer:hover{
     background-color: white;
