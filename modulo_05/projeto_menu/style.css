@@ -26,11 +26,10 @@ header{
 
 header > h1{
     flex: 0 0 200px;
-    border: 1px dotted black;
+    text-shadow: 1px 1px 0px rgba(17, 17, 17, 0.295);
 }
 
 header > nav{
-    border: 1px dotted black;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -61,3 +60,4 @@ main{
     text-align: justify;
     line-height: 1.6em;
 }
+
